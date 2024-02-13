@@ -10,9 +10,6 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 # Call the ViperFX Config
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
-# Call the MiuiCamera setup
-$(call inherit-product-if-exists, vendor/xiaomi/apollo-miuicamera/products/miuicamera.mk)
-
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
